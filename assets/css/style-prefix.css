@@ -1162,7 +1162,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .sidebar .showcase-title {
   color: var(--onyx);
-  font-size: var(--fs-7);
+  /* font-size: var(--fs-7); */
   font-weight: var(--weight-400);
   text-transform: capitalize;
   overflow: hidden;
@@ -1269,7 +1269,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .product-minimal .showcase-title {
   color: var(--eerie-black);
-  font-size: var(--fs-7);
+  /* font-size: var(--fs-7); */
   font-weight: var(--weight-600);
   text-transform: capitalize;
   white-space: nowrap;
@@ -1374,7 +1374,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .product-featured .showcase-title {
-  font-size: var(--fs-7);
+  /* font-size: var(--fs-7); */
   color: var(--eerie-black);
   overflow: hidden;
   white-space: nowrap;
@@ -1646,14 +1646,21 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .product-grid .showcase-title {
   color: var(--sonic-silver);
-  font-size: var(--fs-8);
+  font-size: 12px;
   font-weight: var(--weight-300);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   letter-spacing: 1px;
   margin-bottom: 10px;
   -webkit-transition: var(--transition-timing);
   -o-transition: var(--transition-timing);
   transition: var(--transition-timing);
+}
+
+.cta-comprar{
+  background-color: rgb(33, 178, 33);
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
 }
 
 .product-grid .showcase-title:hover { color: var(--eerie-black); }
@@ -2190,7 +2197,7 @@ footer {
   .header-top-actions { display: none; }
 
   .header-alert-news {
-    color: var(--sonic-silver);
+    color:  #df0024;
     font-size: var(--fs-9);
     text-transform: uppercase;
   }
@@ -2657,14 +2664,14 @@ footer {
     background: hsl(0, 0%, 95%);
     -webkit-border-radius: var(--border-radius-sm);
             border-radius: var(--border-radius-sm);
-    color: var(--sonic-silver);
+    color:  #df0024;
     -webkit-transition: var(--transition-timing);
     -o-transition: var(--transition-timing);
     transition: var(--transition-timing);
   }
 
   .header-social-container .social-link:hover {
-    background: var(--salmon-pink);
+    background:  #df0024;
     color: var(--white);
   }
 
@@ -2974,7 +2981,9 @@ footer {
 
   .product-featured .countdown-content { padding: 5px 10px; }
 
-  .product-grid { -ms-grid-columns: (1fr)[3]; grid-template-columns: repeat(3, 1fr); }
+  .product-grid { 
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr); }
 
 
 
