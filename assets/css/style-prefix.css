@@ -2657,14 +2657,14 @@ footer {
     background: hsl(0, 0%, 95%);
     -webkit-border-radius: var(--border-radius-sm);
             border-radius: var(--border-radius-sm);
-    color: var(--sonic-silver);
+    color:  #df0024;
     -webkit-transition: var(--transition-timing);
     -o-transition: var(--transition-timing);
     transition: var(--transition-timing);
   }
 
   .header-social-container .social-link:hover {
-    background: var(--salmon-pink);
+    background:  #df0024;
     color: var(--white);
   }
 

@@ -1702,6 +1702,10 @@ footer {
 
 .social-link .footer-nav-link { font-size: 25px; }
 
+.iconos-redes{
+  color: #df0024 ;
+}
+
 .footer-bottom {
   margin-bottom: 50px;
   text-align: center;
