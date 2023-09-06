@@ -111,7 +111,7 @@ root {
 .c-nombre .nombre {
   justify-self: start;
   grid-area: nombre;
-  color: #008ce6;
+  color: red;
 }
 
 .c-nombre .nombre span {
@@ -126,7 +126,7 @@ root {
 }
 
 .precio {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 
@@ -135,7 +135,7 @@ root {
   width: 1px;
   height: 100%;
   margin-right: 10px;
-  color: #c1c7cf;
+  color: red;
 }
 
 
