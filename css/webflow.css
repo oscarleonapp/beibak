@@ -17,13 +17,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.w-icon-slider-right:before {
+/* .w-icon-slider-right:before {
   content: "\e600";
-}
-
+} */
+/* 
 .w-icon-slider-left:before {
   content: "\e601";
-}
+} */
 
 .w-icon-nav-menu:before {
   content: "\e602";
