@@ -16,15 +16,14 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #008ce6;
+  background: red;
   border-radius: 3px;
-  
 }
 
 body {
   overflow-x: hidden;
   width: 100%;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 /* FONDO NAVBAR */
@@ -34,7 +33,7 @@ body {
   width: 100%;
   padding-right: 25px;
   padding-left: 25px;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   transition: box-shadow 0.2s;
 }
 
@@ -1205,11 +1204,13 @@ body {
   align-items: center;
   border-radius: 10px;
   background-color: #000;
-  background-image: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#11355d),
-      to(#103d6d));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#11355d),
+    to(#103d6d)
+  );
   background-image: linear-gradient(90deg, #11355d, #103d6d);
   font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #79c6fb;
@@ -1220,20 +1221,24 @@ body {
 }
 
 .columna__servicio._3 {
-  background-image: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#123257),
-      to(#103f71));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#123257),
+    to(#103f71)
+  );
   background-image: linear-gradient(90deg, #123257, #103f71);
 }
 
 .columna__servicio._2 {
-  background-image: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#11365f),
-      to(#103f71));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#11365f),
+    to(#103f71)
+  );
   background-image: linear-gradient(90deg, #11365f, #103f71);
   text-decoration: none;
 }
@@ -1745,14 +1750,10 @@ input[type="submit"]:disabled {
 }
 
 @media screen and (max-width: 1200px) {
-
   .container_info {
     width: 17%;
-
   }
-
 }
-
 
 @media screen and (max-width: 991px) {
   .right_mapa_info {
@@ -1762,7 +1763,6 @@ input[type="submit"]:disabled {
 
   .container_info {
     width: 39%;
-
   }
 
   .right__mapa {
@@ -2360,7 +2360,6 @@ input[type="submit"]:disabled {
 
 /* Antes 479 */
 @media screen and (max-width: 549px) {
-
   .jc_titul_ingresos {
     font-size: 16px;
   }
@@ -2396,12 +2395,10 @@ input[type="submit"]:disabled {
 
   .container_logo {
     width: 50%;
-
   }
 
   .container_info {
     width: 100%;
-
   }
 
   .jc_sec_slide {
@@ -2580,7 +2577,6 @@ input[type="submit"]:disabled {
 }
 
 @media screen and (max-width: 350px) {
-
   .mascara_slide {
     height: auto;
     /* border-radius: 10px; */
@@ -2601,7 +2597,6 @@ input[type="submit"]:disabled {
 }
 
 @media screen and (max-width: 319px) {
-
   .mascara_slide {
     height: auto;
     /* border-radius: 10px; */
