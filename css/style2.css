@@ -352,7 +352,7 @@ root {
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 10px;
-  background-color: #001e32;
+  background-color: #ff0050;
   font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 15px;
@@ -363,7 +363,7 @@ root {
 }
 
 .cta-cuotas-catalogo:hover {
-  background-color: #008ce6;
+  background-color: #dd0d4f;
 }
 
 .cta-test-catalogo {
@@ -386,7 +386,7 @@ root {
 }
 
 .cta-test-catalogo:hover {
-  background-color: #008ce6;
+  background-color: #ff0050;
   color: #fff;
 }
 
@@ -409,7 +409,7 @@ root {
 }
 
 .cta-detalle-catalogo:hover {
-  background-color: #008ce6;
+  background-color: #ff0050;
   color: #fff;
 }
 
@@ -985,7 +985,7 @@ root {
   padding-top: 13px;
   padding-bottom: 13px;
   border-radius: 30px;
-  background-color: #001e32;
+  background-color: #ff0050;
   font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 16px;
@@ -1354,7 +1354,7 @@ root {
 }
 
 .agencia-filtro:hover {
-  color: #2d7dbf;
+  color: #ff0050;
 }
 
 .content-filtro-ordenar {
@@ -1402,7 +1402,7 @@ root {
 }
 
 .checkbox-filtro:hover .chechkbox-label-filtro {
-  color: #008ce6;
+  color: #ff0050;
 }
 
 .checkbox-item-filtro {
@@ -1658,7 +1658,7 @@ root {
 }
 
 .tipo-car:hover {
-  color: #2d7dbf;
+  color: #ff0050;
 }
 
 .header-vender-usado {
@@ -1823,7 +1823,7 @@ root {
 
 .pagination-items [data-type="page"] {
   align-items: center;
-  background-color: #5ac8e6;
+  background-color: #ff0050;
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -2597,23 +2597,6 @@ root {
   .cta-submit-vender {
     padding-right: 40px;
     padding-left: 40px;
-  }
-
-  .content-header-vender {
-    /* height: 225px; */
-  }
-
-  .img-persona {
-    /* left: 0%;
-          top: auto;
-          right: auto;
-          bottom: 0%; */
-  }
-
-  .items-header {
-    /* width: 300px;
-          padding-top: 40px;
-          padding-left: 145px; */
   }
 
   .chechkbox-label-filtro {
