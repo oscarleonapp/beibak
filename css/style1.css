@@ -18,20 +18,22 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-padding-top: 7rem;
+  scroll-padding-top: 2rem;
 }
 
 html::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
+  /* height: 1px; */
 }
 
 html::-webkit-scrollbar-track {
-  background: transparent;
+  background: #5a5f73;
 }
 
 html::-webkit-scrollbar-thumb {
-  background: red;
+  background: #af2e44;
   border-radius: 3px;
+  /* height: 2px; */
 }
 
 body {
