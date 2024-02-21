@@ -120,7 +120,7 @@ root {
 .c-nombre .nombre {
   justify-self: center;
   grid-area: nombre;
-  color: #fc4363;
+  color: #b0011e;
 }
 
 .c-nombre .nombre span {
@@ -363,10 +363,10 @@ root {
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 10px;
-  /* background-color: #ff0050; */
+  /* background-color: #b0011e; */
   font-family: "myriad-pro-semi-condensed", sans-serif;
   /* color: #fff; */
-  background-color: #fc4363;
+  background-color: #b0011e;
   color: var(--color-gris-claro);
   font-size: 15px;
   font-weight: 700;
@@ -399,7 +399,7 @@ root {
 }
 
 .cta-test-catalogo:hover {
-  background-color: #ff0050;
+  background-color: #b0011e;
   color: #fff;
 }
 
@@ -422,7 +422,7 @@ root {
 }
 
 .cta-detalle-catalogo:hover {
-  background-color: #ff0050;
+  background-color: #b0011e;
   color: #fff;
 }
 
@@ -564,7 +564,7 @@ root {
 .nombre-del-carro-interna {
   margin-bottom: 5px;
   font-family: "myriad-pro-semi-condensed", sans-serif;
-  color: #fc4363;
+  color: #b0011e;
   font-size: 32px;
   line-height: 35px;
   font-weight: 700;
@@ -644,7 +644,7 @@ root {
 .titulo-info {
   margin-top: 20px;
   font-family: "myriad-pro-semi-condensed", sans-serif;
-  color: #fc4363;
+  color: #b0011e;
   font-size: 22px;
   line-height: 25px;
   font-weight: 600;
@@ -998,7 +998,7 @@ root {
   padding-top: 13px;
   padding-bottom: 13px;
   border-radius: 30px;
-  background-color: #ff0050;
+  background-color: #b0011e;
   font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 16px;
@@ -1367,7 +1367,7 @@ root {
 }
 
 .agencia-filtro:hover {
-  color: #ff0050;
+  color: #b0011e;
 }
 
 .content-filtro-ordenar {
@@ -1415,7 +1415,7 @@ root {
 }
 
 .checkbox-filtro:hover .chechkbox-label-filtro {
-  color: #ff0050;
+  color: #b0011e;
 }
 
 .checkbox-item-filtro {
@@ -1671,7 +1671,7 @@ root {
 }
 
 .tipo-car:hover {
-  color: #ff0050;
+  color: #b0011e;
 }
 
 .header-vender-usado {
@@ -1836,7 +1836,7 @@ root {
 
 .pagination-items [data-type="page"] {
   align-items: center;
-  background-color: #ff0050;
+  background-color: #b0011e;
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -1852,11 +1852,11 @@ root {
 }
 
 .pagination-items [data-type="page"]:hover {
-  background-color: #fc4363;
+  background-color: #b0011e;
 }
 
 .pagination-items [data-type="page"].jplist-selected {
-  background-color: #fc4363;
+  background-color: #b0011e;
 }
 
 .calculadora-lightbox {

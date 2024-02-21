@@ -124,7 +124,7 @@ a {
   text-align: center;
   justify-content: center;
   font-family: "myriad-pro-semi-condensed", sans-serif;
-  color: #ff0050;
+  color: #b0011e;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -135,12 +135,12 @@ a {
 }
 
 .text_link_menu.w--current {
-  color: #ff0050;
+  color: #b0011e;
   font-weight: 700;
 }
 
 .text_link_menu:hover {
-  color: #ff0050;
+  color: #b0011e;
 }
 
 .cta_whats {
@@ -225,7 +225,7 @@ a {
 }
 
 .jc_titul_bold_slid {
-  color: #ff0050;
+  color: #b0011e;
 }
 
 .jc_img_slide {
@@ -315,9 +315,9 @@ a {
 }
 
 .jc_cta_ver_ingre:hover {
-  background-color: #ff0050;
+  background-color: #b0011e;
   color: #fff;
-  border: 1px solid #ff0050;
+  border: 1px solid #b0011e;
 }
 
 .jc_cont_cars {
@@ -390,7 +390,7 @@ a {
   width: 60%;
   padding-left: 10px;
   float: left;
-  background-color: #ff0050;
+  background-color: #b0011e;
 }
 
 .jc_cont_txt_reserv.jc_cont_txt_inactive {
@@ -402,7 +402,7 @@ a {
   width: 50%;
   float: right;
   border-top-left-radius: 30px;
-  background-color: #ff0050;
+  background-color: #b0011e;
 }
 
 .jc_txt_reservado {
@@ -527,7 +527,7 @@ a {
 }
 
 .jc_cta_test:hover {
-  background-color: #ff0050;
+  background-color: #b0011e;
   color: white;
 }
 
@@ -551,7 +551,7 @@ a {
 }
 
 .jc_cta_detalle:hover {
-  background-color: #ff0050;
+  background-color: #b0011e;
   color: white;
 }
 
@@ -1356,7 +1356,7 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #fc4363;
+  background-color: #b0011e;
   position: fixed;
   right: 2%;
   bottom: 2%;
@@ -1515,8 +1515,8 @@ a.arrow_slider.w-inline-block,
 }
 
 .mid_filter_item_content_filter.jplist-selected {
-  color: #fc4363 !important;
-  border-color: #fc4363;
+  color: #b0011e !important;
+  border-color: #b0011e;
 }
 
 .mid_filter_item_content_filter.mid_filter_item_content_filter--pickup {
@@ -1556,7 +1556,7 @@ a.arrow_slider.w-inline-block,
 }
 
 .mid_filter_item_content_filter:hover {
-  color: #fc4363;
+  color: #b0011e;
 }
 
 .c-mid_filter_item_content {
@@ -1591,11 +1591,11 @@ a.arrow_slider.w-inline-block,
 }
 
 .mid_filter_item_content_filter_text.jplist-selected {
-  color: #fc4363 !important;
+  color: #b0011e !important;
 }
 
 .mid_filter_item_content_filter_text:hover {
-  color: #fc4363;
+  color: #b0011e;
 }
 
 .checkbox-filtro.checkbox-filtro--100 {
@@ -1612,7 +1612,7 @@ a.arrow_slider.w-inline-block,
 }
 
 .checkbox-filtro.checkbox-filtro--100.active .chechkbox-label-filtro {
-  color: #fc4363;
+  color: #b0011e;
 }
 
 .checkbox-item-filtro.checkbox-item-filtro--100 {
@@ -1644,12 +1644,12 @@ a.arrow_slider.w-inline-block,
 
 .swal-button {
   font-family: Barlow, sans-serif !important;
-  background-color: #fc4363;
+  background-color: #b0011e;
   transition: background-color 0.2s;
 }
 
 .swal-button:not([disabled]):hover {
-  background-color: #fc4363;
+  background-color: #b0011e;
 }
 
 .message {
