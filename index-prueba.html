@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+
+        .filter-slider {
+            overflow-x: auto;
+            white-space: nowrap;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            scrollbar-width: none; /* Oculta la barra de desplazamiento en Firefox */
+        }
+
+        .filter-slider::-webkit-scrollbar {
+            display: none; /* Oculta la barra de desplazamiento en Chrome/Safari */
+        }
+
+        .filter-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centra los botones horizontalmente */
+        }
+
+        .filter-btn {
+            width: 60px;
+            height: 60px;
+            margin: 0 10px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 2px solid #ddd;
+            text-align: center;
+            line-height: 60px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: background-color 0.3s ease;
+            flex-shrink: 0; /* Evita que los botones se reduzcan al deslizar */
+        }
+
+        .filter-btn:hover {
+            background-color: #f0f0f0;
+        }
+
+        .filter-btn img {
+            width: 30px; /* Ajusta el tamaño del ícono dentro del botón */
+        }
+
+        .filter-btn span {
+            display: block;
+            font-size: 10px;
+            line-height: 1;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .card {
+            width: calc(25% - 16px); /* Cuatro columnas */
+            height: 200px; /* Altura fija para las tarjetas */
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            position: relative;
+            overflow: hidden;
+            box-sizing: border-box;
+            transition: transform 0.3s ease;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            height: 100%; /* Asegura que el contenido ocupe todo el espacio */
+        }
+
+        .card:hover .card-content {
+            opacity: 1;
+        }
+
+        .pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .pagination button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .pagination button:hover {
+            background-color: #f0f0f0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="filter-slider">
+        <div class="filter-container">
+            <div class="filter-btn" data-category="all">
+                <img src="source/img/nuevo-iconos/dildo.png" alt="Todos">
+                <span>Todos</span>
+            </div>
+            <div class="filter-btn" data-category="electronics">
+                <img src="source/img/nuevo-iconos/dildo2.png" alt="Electrónica">
+                <span>Electrónica</span>
+            </div>
+            <div class="filter-btn" data-category="fashion">
+                <img src="source/img/nuevo-iconos/dildo3.png" alt="Moda">
+                <span>Moda</span>
+            </div>
+            <div class="filter-btn" data-category="books">
+                <img src="source/img/nuevo-iconos/antifaz.png" alt="Libros">
+                <span>Libros</span>
+            </div>
+            <!-- Añade más filtros según sea necesario -->
+        </div>
+    </div>
+    
+    <div class="cards-container">
+        <div class="card" data-category="electronics"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="fashion"><img src="source/img/productos/ana-Marinera/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/anillo-mariposa/ANILLO MARIPOSA.png" alt="" width="256"></div>
+        <div class="card" data-category="electronics"><img src="source/img/productos/anillo-rosa/ANILLO ROSA.png" alt="" width="256"></div>
+        <div class="card" data-category="fashion"><img src="source/img/productos/arnes-cabeza/1.png" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/arnes-la-patrona/1.png" alt="" width="256"></div>
+        <div class="card" data-category="electronics"><img src="source/img/productos/basic-dindong/BASIC DINDONG.png" alt="" width="256"></div>
+        <div class="card" data-category="fashion"><img src="source/img/productos/black-bug/BLACKBUG.png" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/body-drops/BODYDROPS.png" alt="" width="256"></div>
+        <div class="card" data-category="electronics"><img src="source/img/productos/bodystocking-brillantes-calado/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="fashion"><img src="source/img/productos/bodystocking-completo-ligero/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/bodystocking-mangas-calada/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <div class="card" data-category="books"><img src="source/img/productos/amanda-Bunny-Girl/1.JPG" alt="" width="256"></div>
+        <!-- Añade más productos según sea necesario -->
+      </div>
+    
+    <div class="pagination">
+        <button class="prev-page">Anterior</button>
+        <button class="next-page">Siguiente</button>
+    </div>
+    
+    <script>
+        const itemsPerPage = 12;
+        let currentPage = 1;
+        let currentCategory = 'all';
+
+        const cards = document.querySelectorAll('.card');
+        let filteredCards = Array.from(cards);
+        const totalPages = () => Math.ceil(filteredCards.length / itemsPerPage);
+
+        function showPage(page) {
+            cards.forEach(card => card.style.display = 'none');
+            filteredCards.forEach((card, index) => {
+                if (index >= (page - 1) * itemsPerPage && index < page * itemsPerPage) {
+                    card.style.display = 'block';
+                }
+            });
+        }
+
+        function updatePagination() {
+            document.querySelector('.prev-page').disabled = currentPage === 1;
+            document.querySelector('.next-page').disabled = currentPage === totalPages();
+        }
+
+        function filterCards(category) {
+            currentCategory = category;
+            filteredCards = category === 'all' ? Array.from(cards) : Array.from(cards).filter(card => card.dataset.category === category);
+            currentPage = 1;
+            showPage(currentPage);
+            updatePagination();
+        }
+
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                filterCards(button.dataset.category);
+            });
+        });
+
+        document.querySelector('.prev-page').addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                showPage(currentPage);
+                updatePagination();
+            }
+        });
+
+        document.querySelector('.next-page').addEventListener('click', () => {
+            if (currentPage < totalPages()) {
+                currentPage++;
+                showPage(currentPage);
+                updatePagination();
+            }
+        });
+
+        filterCards('all');
+
+    </script>
+</body>
+</html>
